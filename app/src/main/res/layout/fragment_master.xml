@@ -6,6 +6,7 @@
     tools:context="movil.tmultiscreen.fragments.MasterFragment">
 
     <ListView
+        android:id="@+id/list"
         android:layout_height="0dp"
         android:layout_weight="1"
         />
