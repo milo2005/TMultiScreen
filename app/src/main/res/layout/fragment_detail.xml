@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="movil.tmultiscreen.fragments.DetailFragment">
+
+   <TextView
+       style="@style/Base.TextAppearance.AppCompat.Display1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:text="Azul"
+       android:background="#0000ff"
+       android:textColor="#ffffff"
+       android:gravity="center"
+       />
+
+</FrameLayout>
