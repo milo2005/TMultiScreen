@@ -1,17 +1,30 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="movil.tmultiscreen.fragments.DetailFragment">
-
-   <TextView
-       style="@style/Base.TextAppearance.AppCompat.Display1"
+    >
+   <data>
+      <variable
+          name="color"
+          type="java.lang.Integer"/>
+      <variable
+          name="colorName"
+          type="java.lang.String"/>
+   </data>
+   <FrameLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:text="Azul"
-       android:background="#0000ff"
-       android:textColor="#ffffff"
-       android:gravity="center"
-       />
+       >
 
-</FrameLayout>
+
+      <TextView
+          style="@style/Base.TextAppearance.AppCompat.Display1"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@{colorName}"
+          android:background="@{color}"
+          android:textColor="#ffffff"
+          android:gravity="center"
+          />
+
+   </FrameLayout>
+</layout>

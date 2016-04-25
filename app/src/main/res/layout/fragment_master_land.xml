@@ -10,6 +10,7 @@
         <ListView
             android:id="@+id/list"
             android:layout_height="match_parent"
+            android:entries="@array/colors"
             />
         <LinearLayout
             android:orientation="vertical"

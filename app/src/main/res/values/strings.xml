@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">TMultiScreen</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="add">Agregar</string>
     <string name="edit">Editar</string>
     <string name="delete">Eliminar</string>
+
+    <string-array name="colors">
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+        <item>Naranja</item>
+        <item>Verde</item>
+        <item>Violeta</item>
+    </string-array>
+
 </resources>
